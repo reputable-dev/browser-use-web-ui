@@ -1,0 +1,18 @@
+# Browser-Use Web UI Requirements
+browser-use[cli]==0.6.1
+fastapi==0.115.6
+uvicorn[standard]==0.35.0
+websockets==15.0.1
+python-multipart==0.0.19
+
+# AI and browser automation
+anthropic==0.58.2
+playwright==1.54.0
+
+# Additional utilities
+python-dotenv==1.1.1
+aiofiles==24.1.0
+jinja2==3.1.5
+
+# Development
+watchfiles==1.0.3

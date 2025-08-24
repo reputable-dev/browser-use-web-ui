@@ -1,0 +1,13 @@
+[phases.build]
+cmds = [
+    "pip install -r requirements.txt",
+    "playwright install chromium",
+    "playwright install-deps chromium"
+]
+
+[phases.start]
+cmd = "python app.py"
+
+[variables]
+PORT = "8000"
+PYTHONUNBUFFERED = "1"

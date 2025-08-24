@@ -1,0 +1,12 @@
+[deploy]
+startCommand = "python app.py"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+[build]
+builder = "nixpacks"
+buildCommand = "pip install -r requirements.txt && playwright install chromium"
+
+[environment]
+PORT = "8000"
+PYTHONUNBUFFERED = "1"
