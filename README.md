@@ -26,9 +26,13 @@ A web-based interface for monitoring and controlling browser automation agents u
 
 ### 1. Deploy to Railway (Recommended)
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/7jVPgx)
+**Method 1: GitHub Integration**
+1. Fork/Clone: `git clone https://github.com/reputable-dev/browser-use-web-ui`
+2. Visit [Railway.app](https://railway.app) and create a new project
+3. Connect your GitHub repository
+4. Railway will automatically detect and deploy the application
 
-**OR manually:**
+**Method 2: Manual Deploy**
 
 ```bash
 # Clone to your repository
