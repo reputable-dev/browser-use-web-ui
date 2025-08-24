@@ -26,7 +26,7 @@ A web-based interface for monitoring and controlling browser automation agents u
 
 ### 1. Deploy to Railway (Recommended)
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/browser-use-web-ui)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/7jVPgx)
 
 **OR manually:**
 
